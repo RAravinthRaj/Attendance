@@ -1,12 +1,10 @@
 const attendanceList = [];
 
-// Function to mark attendance
 function markAttendance(name) {
   attendanceList.push(name);
   console.log(`${name} is marked present.`);
 }
 
-// Example: mark attendance when form is submitted
 document
   .getElementById("attendanceForm")
   .addEventListener("submit", function (event) {
